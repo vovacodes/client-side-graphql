@@ -1,0 +1,183 @@
+[
+  {
+    "id": 1,
+    "title": "The Shawshank Redemption",
+    "year": "1994",
+    "genres": [
+      "Crime",
+      "Drama"
+    ],
+    "contentRating": "15",
+    "duration": "PT142M",
+    "releaseDate": "1995-03-03",
+    "storyline": "Chronicles the experiences of a formerly successful banker as a prisoner in the gloomy jailhouse of Shawshank after being found guilty of a crime he did not commit. The film portrays the man's unique way of dealing with his new, torturous life; along the way he befriends a number of fellow prisoners, most notably a wise long-term inmate named Red. Written by J-S-Golden",
+    "actors": [1, 2, 3],
+    "imdbRating": 9.3,
+    "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BODU4MjU4NjIwNl5BMl5BanBnXkFtZTgwMDU2MjEyMDE@._V1_SY500_CR0,0,336,500_AL_.jpg"
+  },
+  {
+    "id": 2,
+    "title": "The Godfather",
+    "year": "1972",
+    "genres": [
+      "Crime",
+      "Drama"
+    ],
+    "contentRating": "15",
+    "duration": "PT175M",
+    "releaseDate": "1972-09-27",
+    "storyline": "When the aging head of a famous crime family decides to transfer his position to one of his subalterns, a series of unfortunate events start happening to the family, and a war begins between all the well-known families leading to insolence, deportation, murder and revenge, and ends with the favorable successor being finally chosen. Written by J. S. Golden",
+    "actors": [4, 5, 6],
+    "imdbRating": 9.2,
+    "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BZTRmNjQ1ZDYtNDgzMy00OGE0LWE4N2YtNTkzNWQ5ZDhlNGJmL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SY500_CR0,0,352,500_AL_.jpg"
+  },
+  {
+    "id": 3,
+    "title": "The Godfather: Part II",
+    "year": "1974",
+    "genres": [
+      "Crime",
+      "Drama"
+    ],
+    "contentRating": "15",
+    "duration": "PT202M",
+    "releaseDate": "1975-07-28",
+    "storyline": "The continuing saga of the Corleone crime family tells the story of a young Vito Corleone growing up in Sicily and in 1910s New York; and follows Michael Corleone in the 1950s as he attempts to expand the family business into Las Vegas, Hollywood and Cuba. Written by Keith Loh <loh@sfu.ca>",
+    "actors": [5, 7, 8],
+    "imdbRating": 9,
+    "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjZiNzIxNTQtNDc5Zi00YWY1LThkMTctMDgzYjY4YjI1YmQyL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SY500_CR0,0,351,500_AL_.jpg"
+  },
+  {
+    "id": 4,
+    "title": "The Dark Knight",
+    "year": "2008",
+    "genres": [
+      "Action",
+      "Crime",
+      "Drama"
+    ],
+    "contentRating": "15",
+    "duration": "PT152M",
+    "releaseDate": "2008-07-25",
+    "averageRating": 0,
+    "originalTitle": "",
+    "storyline": "Set within a year after the events of Batman Begins, Batman, Lieutenant James Gordon, and new district attorney Harvey Dent successfully begin to round up the criminals that plague Gotham City until a mysterious and sadistic criminal mastermind known only as the Joker appears in Gotham, creating a new wave of chaos. Batman's struggle against the Joker becomes deeply personal, forcing him to confront everything he believes and improve his technology to stop him. A love triangle develops between Bruce Wayne, Dent and Rachel Dawes. Written by Leon Lombardi",
+    "actors": [9, 10, 11],
+    "imdbRating": 9,
+    "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_SY500_CR0,0,337,500_AL_.jpg"
+  },
+  {
+    "id": 5,
+    "title": "12 Angry Men",
+    "year": "1957",
+    "genres": [
+      "Crime",
+      "Drama"
+    ],
+    "contentRating": "15",
+    "duration": "PT96M",
+    "releaseDate": "1957-07-29",
+    "storyline": "The defense and the prosecution have rested and the jury is filing into the jury room to decide if a young man is guilty or innocent of murdering his father. What begins as an open-and-shut case of murder soon becomes a detective story that presents a succession of clues creating doubt, and a mini-drama of each of the jurors' prejudices and preconceptions about the trial, the accused, and each other. Based on the play, all of the action takes place on the stage of the jury room. Written by pjk <PETESID@VNET.IBM.COM>",
+    "actors": [12, 13, 14],
+    "imdbRating": 8.9,
+    "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BODQwOTc5MDM2N15BMl5BanBnXkFtZTcwODQxNTEzNA@@._V1_SY500_CR0,0,333,500_AL_.jpg"
+  },
+  {
+    "id": 6,
+    "title": "Schindler's List",
+    "year": "1993",
+    "genres": [
+      "Biography",
+      "Drama",
+      "History"
+    ],
+    "contentRating": "15",
+    "duration": "PT195M",
+    "releaseDate": "1994-03-04",
+    "storyline": "Oskar Schindler is a vainglorious and greedy German businessman who becomes an unlikely humanitarian amid the barbaric German Nazi reign when he feels compelled to turn his factory into a refuge for Jews. Based on the true story of Oskar Schindler who managed to save about 1100 Jews from being gassed at the Auschwitz concentration camp, it is a testament to the good in all of us. Written by Harald Mayr <marvin@bike.augusta.de>",
+    "actors": [15, 16, 17],
+    "imdbRating": 8.9,
+    "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BNDE4OTMxMTctNmRhYy00NWE2LTg3YzItYTk3M2UwOTU5Njg4XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SY500_CR0,0,333,500_AL_.jpg"
+  },
+  {
+    "id": 7,
+    "title": "Pulp Fiction",
+    "year": "1994",
+    "genres": [
+      "Crime",
+      "Drama"
+    ],
+    "contentRating": "15",
+    "duration": "PT154M",
+    "releaseDate": "1994-11-25",
+    "storyline": "Jules Winnfield (Samuel L. Jackson) and Vincent Vega (John Travolta) are two hit men who are out to retrieve a suitcase stolen from their employer, mob boss Marsellus Wallace (Ving Rhames). Wallace has also asked Vincent to take his wife Mia (Uma Thurman) out a few days later when Wallace himself will be out of town. Butch Coolidge (Bruce Willis) is an aging boxer who is paid by Wallace to lose his weight. The lives of these seemingly unrelated people are woven together comprising of a series of funny, bizarre and uncalled-for incidents. Written by Soumitra",
+    "actors": [18, 19, 20],
+    "imdbRating": 8.9,
+    "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTkxMTA5OTAzMl5BMl5BanBnXkFtZTgwNjA5MDc3NjE@._V1_SY500_CR0,0,336,500_AL_.jpg"
+  },
+  {
+    "id": 8,
+    "title": "The Lord of the Rings: The Return of the King",
+    "year": "2003",
+    "genres": [
+      "Adventure",
+      "Drama",
+      "Fantasy"
+    ],
+    "poster": "MV5BYWY1ZWQ5YjMtMDE0MS00NWIzLWE1M2YtODYzYTk2OTNlYWZmXkEyXkFqcGdeQXVyNDUyOTg3Njg@._V1_SY500_SX334_AL_.jpg",
+    "contentRating": "11",
+    "duration": "PT201M",
+    "releaseDate": "2003-12-17",
+    "storyline": "The final confrontation between the forces of good and evil fighting for control of the future of Middle-earth. Hobbits Frodo and Sam reach Mordor in their quest to destroy the one ring, while Aragorn leads the forces of good against Sauron's evil army at the stone city of Minas Tirith. Written by Jwelch5742",
+    "actors": [21, 22, 23, 31],
+    "imdbRating": 8.9,
+    "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BYWY1ZWQ5YjMtMDE0MS00NWIzLWE1M2YtODYzYTk2OTNlYWZmXkEyXkFqcGdeQXVyNDUyOTg3Njg@._V1_SY500_SX334_AL_.jpg"
+  },
+  {
+    "id": 9,
+    "title": "Il buono, il brutto, il cattivo",
+    "year": "1966",
+    "genres": [
+      "Western"
+    ],
+    "contentRating": "",
+    "duration": "PT161M",
+    "releaseDate": "1968-04-10",
+    "storyline": "Blondie (The Good) is a professional gunslinger who is out trying to earn a few dollars. Angel Eyes (The Bad) is a hit man who always commits to a task and sees it through, as long as he is paid to do so. And Tuco (The Ugly) is a wanted outlaw trying to take care of his own hide. Tuco and Blondie share a partnership together making money off Tuco's bounty, but when Blondie unties the partnership, Tuco tries to hunt down Blondie. When Blondie and Tuco come across a horse carriage loaded with dead bodies, they soon learn from the only survivor (Bill Carson) that he and a few other men have buried a stash of gold in a cemetery. Unfortunately Carson dies and Tuco only finds out the name of the cemetery, while Blondie finds out the name on the grave. Now the two must keep each other alive in order to find the gold. Angel Eyes (who had been looking for Bill Carson) discovers that Tuco and Blondie met with Carson and knows they know the location of the gold. All he needs is for the two to ... Written by Jeremy Thomson",
+    "actors": [24, 25, 26],
+    "imdbRating": 8.9,
+    "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BOTQ5NDI3MTI4MF5BMl5BanBnXkFtZTgwNDQ4ODE5MDE@._V1_SY500_CR0,0,328,500_AL_.jpg"
+  },
+  {
+    "id": 10,
+    "title": "Fight Club",
+    "year": "1999",
+    "genres": [
+      "Drama"
+    ],
+    "contentRating": "15",
+    "duration": "PT139M",
+    "releaseDate": "1999-12-25",
+    "storyline": "A nameless first person narrator (Edward Norton) attends support groups in attempt to subdue his emotional state and relieve his insomniac state. When he meets Marla (Helena Bonham Carter), another fake attendee of support groups, his life seems to become a little more bearable. However when he associates himself with Tyler (Brad Pitt) he is dragged into an underground fight club and soap making scheme. Together the two men spiral out of control and engage in competitive rivalry for love and power. When the narrator is exposed to the hidden agenda of Tyler's fight club, he must accept the awful truth that Tyler may not be who he says he is. Written by Rhiannon",
+    "actors": [27, 28],
+    "imdbRating": 8.8,
+    "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BZGY5Y2RjMmItNDg5Yy00NjUwLThjMTEtNDc2OGUzNTBiYmM1XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX290_CR0,0,290,429_AL_.jpg"
+  },
+  {
+    "id": 11,
+    "title": "The Lord of the Rings: The Fellowship of the Ring",
+    "year": "2001",
+    "genres": [
+      "Adventure",
+      "Drama",
+      "Fantasy"
+    ],
+    "contentRating": "11",
+    "duration": "PT178M",
+    "releaseDate": "2001-12-19",
+    "storyline": "An ancient Ring thought lost for centuries has been found, and through a strange twist in fate has been given to a small Hobbit named Frodo. When Gandalf discovers the Ring is in fact the One Ring of the Dark Lord Sauron, Frodo must make an epic quest to the Cracks of Doom in order to destroy it! However he does not go alone. He is joined by Gandalf, Legolas the elf, Gimli the Dwarf, Aragorn, Boromir and his three Hobbit friends Merry, Pippin and Samwise. Through mountains, snow, darkness, forests, rivers and plains, facing evil and danger at every corner the Fellowship of the Ring must go. Their quest to destroy the One Ring is the only hope for the end of the Dark Lords reign! Written by Paul Twomey <toomsp@hotmail.com>",
+    "actors": [21, 22, 23, 31],
+    "imdbRating": 8.8,
+    "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BNmFmZDdkODMtNzUyMy00NzhhLWFjZmEtMGMzYjNhMDA1NTBkXkEyXkFqcGdeQXVyNDUyOTg3Njg@._V1_SY500_SX342_AL_.jpg"
+  }
+]

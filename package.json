@@ -1,0 +1,25 @@
+{
+  "name": "client-side-graphql",
+  "version": "1.0.0",
+  "description": "Example setup of a client-side GraphQL schema that uses an existing REST backend",
+  "engines": {
+    "node": "^8.0.0"
+  },
+  "main": "index.js",
+  "scripts": {
+    "bootstrap": "lerna exec -- linklocal && lerna bootstrap",
+    "unbootstrap": "lerna clean"
+  },
+  "keywords": [
+    "graphql",
+    "REST",
+    "apollo",
+    "react"
+  ],
+  "author": "Vladimir Guguiev <wizardzloy@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "lerna": "^2.0.0",
+    "linklocal": "^2.8.1"
+  }
+}
