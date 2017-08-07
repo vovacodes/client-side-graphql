@@ -1,12 +1,23 @@
 const express = require('express');
 const bodyParser = require('body-parser');
+const cors = require('cors');
 const { graphqlExpress, graphiqlExpress } = require('apollo-server-express');
-const { schema } = require('@wzrdzl/graphql-schema');
+const { schema, createLoaders } = require('./dist/index');
 
 const app = express();
 
+// enable CORS
+app.use(cors());
+
 // accepts GraphQL queries
-app.use('/graphql', bodyParser.json(), graphqlExpress({ schema }));
+app.use('/graphql', bodyParser.json(), graphqlExpress(() => ({
+  schema,
+  context: {
+    // create new loaders on every request
+    // https://github.com/facebook/dataloader#caching-per-request
+    loaders: createLoaders()
+  }
+})));
 
 // runs GraphiQL web app
 app.use('/graphiql', graphiqlExpress({ endpointURL: '/graphql' }));

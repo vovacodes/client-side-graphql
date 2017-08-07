@@ -4,18 +4,30 @@
   "description": "",
   "main": "dist/index.js",
   "scripts": {
+    "start": "nodemon server.js",
     "build": "babel src -d dist",
+    "build:watch": "babel src -d dist -w",
+    "flow": "flow",
     "prepublish": "npm run build"
   },
   "keywords": [],
   "author": "Vladimir Guguiev <wizardzloy@gmail.com>",
   "license": "ISC",
   "dependencies": {
+    "apollo-server-express": "^1.0.5",
+    "body-parser": "^1.17.2",
+    "cors": "^2.8.4",
     "dataloader": "^1.3.0",
-    "graphql": "^0.10.5"
+    "express": "^4.15.3",
+    "graphql": "^0.10.5",
+    "isomorphic-fetch": "^2.2.1"
   },
   "devDependencies": {
     "babel-cli": "^6.24.1",
-    "babel-preset-env": "^1.6.0"
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-flow": "^6.23.0",
+    "flow-bin": "^0.52.0",
+    "nodemon": "^1.11.0"
   }
 }

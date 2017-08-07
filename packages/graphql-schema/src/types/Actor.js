@@ -1,5 +1,6 @@
 import { GraphQLObjectType, GraphQLString, GraphQLID, GraphQLList } from 'graphql';
 import Movie from './Movie';
+import { getMoviesByIds } from '../services/MovieService';
 
 
 const Actor = new GraphQLObjectType({
@@ -16,7 +17,8 @@ const Actor = new GraphQLObjectType({
     },
     movies: {
       type: new GraphQLList(Movie),
-      description: 'List of the movies the actor is acting in'
+      description: 'List of the movies the actor is acting in',
+      resolve: (actor, args, { loaders: { movieByIdLoader } }) => getMoviesByIds(movieByIdLoader, actor.movies),
     }
   })
 });

@@ -1,3 +1,4 @@
+import 'isomorphic-fetch';
 import { GraphQLSchema } from 'graphql';
 import Query from './types/Query';
 
