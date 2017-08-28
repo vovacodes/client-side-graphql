@@ -1,9 +1,10 @@
 // @flow
+import config from '../config';
 import DataLoader from 'dataloader';
 
 
 const createActorByIdLoader = () => new DataLoader(
-  (actorIds) => fetch('http://localhost:3000/actors/by-ids', {
+  (actorIds) => fetch(`${config.restBackendUrl}/actors/by-ids`, {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json'

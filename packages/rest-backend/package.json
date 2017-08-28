@@ -4,13 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "docker:build": "docker build -t wizardzloy/client-side-graphql-rest-backend .",
+    "docker:run": "docker run -p 3000:3000 wizardzloy/client-side-graphql-rest-backend"
   },
   "keywords": [],
   "author": "Vladimir Guguiev <wizardzloy@gmail.com>",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.17.2",
+    "cors": "^2.8.4",
     "express": "^4.15.3",
     "morgan": "^1.8.2"
   }

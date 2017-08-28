@@ -8,8 +8,8 @@ class App extends React.Component {
   constructor(props) {
     super(props);
 
-    this.goToMovieDetail = this.goToMovieDetail.bind(this);
     this.goToMovies = this.goToMovies.bind(this);
+    this.goToMovieDetail = this.goToMovieDetail.bind(this);
     this.goToActorDetail = this.goToActorDetail.bind(this);
 
     this.state = {
@@ -19,18 +19,18 @@ class App extends React.Component {
     };
   }
 
-  goToMovieDetail(movieId) {
-    this.setState({
-      page: 'movieDetail',
-      selectedMovieId: movieId,
-      selectedActorId: null,
-    });
-  }
-
   goToMovies() {
     this.setState({
       page: 'movies',
       selectedMovieId: null,
+      selectedActorId: null,
+    });
+  }
+
+  goToMovieDetail(movieId) {
+    this.setState({
+      page: 'movieDetail',
+      selectedMovieId: movieId,
       selectedActorId: null,
     });
   }

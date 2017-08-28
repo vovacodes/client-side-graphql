@@ -1,8 +1,9 @@
 // @flow
+import config from '../config';
 import type DataLoader from 'dataloader';
 import type { MovieObject } from '../flowTypes/apiTypes';
 
-const getAllMovies = (): Promise<Array<MovieObject>> => fetch('http://localhost:3000/movies')
+const getAllMovies = (): Promise<Array<MovieObject>> => fetch(`${config.restBackendUrl}/movies`)
   .then(response => response.json());
 
 const getMovieById = (

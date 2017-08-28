@@ -1,9 +1,10 @@
 // @flow
+import config from '../config';
 import type DataLoader from 'dataloader';
 import type { ActorObject } from '../flowTypes/apiTypes';
 
 
-const getAllActors = (): Promise<Array<ActorObject>> => fetch('http://localhost:3000/actors')
+const getAllActors = (): Promise<Array<ActorObject>> => fetch(`${config.restBackendUrl}/actors`)
   .then(response => response.json());
 
 const getActorById = (

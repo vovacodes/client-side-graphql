@@ -1,8 +1,9 @@
+import config from '../config';
 import DataLoader from 'dataloader';
 
 
 const createMovieByIdLoader = () => new DataLoader(
-  (movieIds) => fetch('http://localhost:3000/movies/by-ids', {
+  (movieIds) => fetch(`${config.restBackendUrl}/movies/by-ids`, {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json'

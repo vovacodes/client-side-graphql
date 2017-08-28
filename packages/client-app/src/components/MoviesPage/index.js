@@ -11,7 +11,7 @@ const styles = {
   }
 };
 
-let withMoviesData = graphql(gql`
+const withMoviesData = graphql(gql`
   query allMovies {
     movies {
       id

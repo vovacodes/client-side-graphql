@@ -1,11 +1,15 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const morgan = require('morgan');
+const cors = require('cors');
 const movies = require('./data/movies.json');
 const actors = require('./data/actors.json');
 
 
 const app = express();
+
+// enable CORS
+app.use(cors());
 
 app.use(bodyParser.json());
 app.use(morgan('dev'));

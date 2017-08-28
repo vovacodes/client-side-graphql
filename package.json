@@ -7,8 +7,10 @@
   },
   "main": "index.js",
   "scripts": {
-    "bootstrap": "lerna exec -- linklocal && lerna bootstrap",
-    "unbootstrap": "lerna clean"
+    "bootstrap": "lerna bootstrap",
+    "unbootstrap": "lerna clean",
+    "docker:build": "lerna run docker:build",
+    "start:docker": "docker-compose up"
   },
   "keywords": [
     "graphql",
@@ -19,7 +21,6 @@
   "author": "Vladimir Guguiev <wizardzloy@gmail.com>",
   "license": "ISC",
   "devDependencies": {
-    "lerna": "^2.0.0",
-    "linklocal": "^2.8.1"
+    "lerna": "^2.0.0"
   }
 }
