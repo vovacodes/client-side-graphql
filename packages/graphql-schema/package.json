@@ -3,6 +3,9 @@
   "version": "1.0.3",
   "description": "",
   "main": "dist/index.js",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "start": "nodemon server.js",
     "build": "babel src -d dist",
