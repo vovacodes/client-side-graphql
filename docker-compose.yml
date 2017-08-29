@@ -4,6 +4,10 @@ services:
     image: wizardzloy/client-side-graphql-rest-backend
     ports:
       - "3000:3000"
+  graphql-schema:
+    image: wizardzloy/client-side-graphql-graphql-schema
+    ports:
+      - "4000:4000"
   client-app:
     image: wizardzloy/client-side-graphql-client-app
     ports:

@@ -5,6 +5,8 @@ Client-Side GraphQL Example
 
 `$> cd packages/rest-backend && npm i && npm start`
 
+`$> cd packages/graphql-schema && npm i && npm start`
+
 `$> cd packages/client-app && npm i && npm start`
 
 Go to `http://localhost:8080`

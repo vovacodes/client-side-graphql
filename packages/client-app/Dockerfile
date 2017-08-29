@@ -11,8 +11,6 @@ RUN npm install
 # copy the rest of the files to the app directory
 COPY . .
 
-ENV NODE_ENV=docker
-
 # compile the app code
 RUN npm run build
 

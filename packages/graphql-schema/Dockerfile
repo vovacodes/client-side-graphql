@@ -11,6 +11,8 @@ RUN npm install
 # copy the rest of the files to the app directory
 COPY . .
 
+ENV DOCKER=true
+
 # compile the app code
 RUN npm run build
 
