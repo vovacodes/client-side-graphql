@@ -1,6 +1,8 @@
 Client-Side GraphQL Example
 ==================================
 
+Example setup of a client-side GraphQL schema that uses an existing REST backend
+
 ## Run
 
 `$> cd packages/rest-backend && npm i && npm start`
